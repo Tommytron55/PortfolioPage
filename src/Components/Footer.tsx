@@ -31,6 +31,8 @@ const Footer: React.FC = () => {
             <MyLink href="https://solilius.github.io/portfolio/#/about-me" target="_blank"> Sol Elan</MyLink>
             <Icon src={`${process.env.PUBLIC_URL}/favicon.ico`} />
             <a href="https://github.com/solilius/portfolio-template" target="_blank"> click for free template</a>
+            <span>|</span>
+            <a href="https://www.flaticon.com/free-icons/game-development" title="game development icons" target="_blank">Game development icons by Vectorslab - Flaticon</a>
         </FooterContainer>
     );
 };
