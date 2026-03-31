@@ -1,3 +1,4 @@
+import { platform } from "os";
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
@@ -47,7 +48,6 @@ export const games: Game[] = [
       { source: "https://www.youtube.com/embed/TWS6a4DuPrs?si=phMl9LKOoU9kev9x", type: MediaType.YouTube },
       { source: "/images/games/WriteWhizz/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/WriteWhizz/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/WriteWhizz/Screenshot_4.png", type: MediaType.Image },
       { source: "/images/games/WriteWhizz/Screenshot_5.png", type: MediaType.Image },
       { source: "/images/games/WriteWhizz/Screenshot_6.png", type: MediaType.Image },  
       { source: "/images/games/WriteWhizz/Screenshot_7.png", type: MediaType.Image }  
@@ -69,6 +69,23 @@ export const games: Game[] = [
       { source: "/images/games/Smith&Squire/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/Smith&Squire/Screenshot_4.png", type: MediaType.Image },
       { source: "/images/games/Smith&Squire/Screenshot_5.png", type: MediaType.Image }
+    ],
+  },
+  {
+    name: "ByteEd Website",
+    description: "Website developed by ByteEd. Created to facilitate and aid young learners in understanding, and using digital technologies and computational thinking. The ByteEd website is also a teaching portal that allows teachers to log in and access education-related content that was created by the ByteEd Team. This includes lesson plans, activity sheets, and other resources that teachers can use in their classrooms to teach students about digital technologies and computational thinking.",
+    genres: ["Education", "Web Development", "STEM"],
+    platforms: [Platform.Web],
+    engine: GameEngine.FullStack,
+    links: [],
+    media: [
+      { source: "/images/games/ByteEd_Website/Screenshot_1.png", type: MediaType.Image },
+      { source: "/images/games/ByteEd_Website/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/ByteEd_Website/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/ByteEd_Website/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/ByteEd_Website/Screenshot_5.png", type: MediaType.Image },
+      { source: "/images/games/ByteEd_Website/Screenshot_6.png", type: MediaType.Image }
+
     ],
   },
   {

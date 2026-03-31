@@ -9,11 +9,13 @@ export enum Platform {
   Linux = "Linux",
   iOS = "iOS",
   Android = "Android",
+  Web = "Web",
 }
 
 export enum GameEngine {
   Unity = "Unity",
   Unreal = "Unreal",
+  FullStack = "Full Stack",
 }
 
 export enum MediaType {
