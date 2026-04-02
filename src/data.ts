@@ -50,7 +50,9 @@ export const games: Game[] = [
       { source: "/images/games/WriteWhizz/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/WriteWhizz/Screenshot_5.png", type: MediaType.Image },
       { source: "/images/games/WriteWhizz/Screenshot_6.png", type: MediaType.Image },  
-      { source: "/images/games/WriteWhizz/Screenshot_7.png", type: MediaType.Image }  
+      { source: "/images/games/WriteWhizz/Screenshot_9.png", type: MediaType.Image },
+      { source: "/images/games/WriteWhizz/Screenshot_8.png", type: MediaType.Image },  
+      { source: "/images/games/WriteWhizz/Screenshot_10.png", type: MediaType.Image}  
     ],
   },
   {
