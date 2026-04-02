@@ -10,6 +10,7 @@ export enum Platform {
   iOS = "iOS",
   Android = "Android",
   Web = "Web",
+  VR = "PC VR",
 }
 
 export enum GameEngine {

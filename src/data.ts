@@ -72,6 +72,22 @@ export const games: Game[] = [
     ],
   },
   {
+    name: "VR Earthquake Preparedness Training",
+    description: "Virtual Reality (VR) simulation of an earthquake within a school. Created together with the team at VReady to be as accurate and educational as possible to teach others what to do in an earthquake. The simulation includes a number of different earthquake scenarios, showing the player what happens if they choose the wrong options so that they can learn from their mistakes in a safe virtual environment.",
+    genres: ["Virtual Reality", "Education", "Simulation"],
+    platforms: [Platform.Windows, Platform.VR],
+    engine: GameEngine.Unity,
+    links: [],
+    media: [
+      { source: "/images/games/Earthquake_VR/Screenshot1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/y0YkbAFL9H4?si=GpwVE0wJ2Q_P-tYG", type: MediaType.YouTube },
+      { source: "/images/games/Earthquake_VR/Screenshot2.png", type: MediaType.Image },
+      { source: "/images/games/Earthquake_VR/Screenshot3.png", type: MediaType.Image },
+      { source: "/images/games/Earthquake_VR/Screenshot4.png", type: MediaType.Image },
+      { source: "/images/games/Earthquake_VR/Screenshot5.png", type: MediaType.Image }
+    ],
+  },
+  {
     name: "ByteEd Website",
     description: "Website developed by ByteEd. Created to facilitate and aid young learners in understanding, and using digital technologies and computational thinking. The ByteEd website is also a teaching portal that allows teachers to log in and access education-related content that was created by the ByteEd Team. This includes lesson plans, activity sheets, and other resources that teachers can use in their classrooms to teach students about digital technologies and computational thinking.",
     genres: ["Education", "Web Development", "STEM"],
@@ -103,4 +119,6 @@ export const games: Game[] = [
       { source: "/images/games/AlphaBee/Screenshot_5.png", type: MediaType.Image }
     ],
   }
+
+  
 ];
