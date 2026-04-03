@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7d231157.css",
-    "main.js": "./static/js/main.a880a2bd.js",
+    "main.js": "./static/js/main.e668d12f.js",
     "static/media/Ethnocentric-Regular.otf": "./static/media/Ethnocentric-Regular.aae55ec86232f4013efb.otf",
     "static/media/Oxanium.ttf": "./static/media/Oxanium.50bb18b058c797a89438.ttf",
     "static/media/PhoenixGaming.ttf": "./static/media/PhoenixGaming.52b75a56ef9f70c20259.ttf",
@@ -10,10 +10,10 @@
     "static/media/Background.jpg": "./static/media/Background.99d00b9e2dce0d3482d1.jpg",
     "index.html": "./index.html",
     "main.7d231157.css.map": "./static/css/main.7d231157.css.map",
-    "main.a880a2bd.js.map": "./static/js/main.a880a2bd.js.map"
+    "main.e668d12f.js.map": "./static/js/main.e668d12f.js.map"
   },
   "entrypoints": [
     "static/css/main.7d231157.css",
-    "static/js/main.a880a2bd.js"
+    "static/js/main.e668d12f.js"
   ]
 }
