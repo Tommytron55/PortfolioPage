@@ -52,7 +52,7 @@ const InfoKey = styled.span`
 `;
 
 const InfoValue = styled.span`
-  color: #F2ECA9;
+  color: #666666;
 `;
 
 const LinksContainer = styled(Row)`
